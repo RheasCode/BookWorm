@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BookWorm</title>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #1F1A24">
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top" style="background-color: #1F1A24">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar" aria-controls="Navbar" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+      </button>
+       <a class="navbar-brand mr-auto" href="#"><i class="fa fa-book" aria-hidden="true"></i></a>
+       <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto d-flex">
+              <li class="nav-item active me-3"><a class="nav-link active" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+              <li class="nav-item me-3"><a class="nav-link" href="./about.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+              <li class="nav-item me-3"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Shop</a></li>
+              <li class="nav-item me-3"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+            </ul>
+
+             <form class="form-outline d-flex">
+               <input id="search-input" type="search" id="form1" placeholder="search" class="form-control"></input>
+               <button id="search-button" type="button" class="btn btn-dark">
+               <i class="fa fa-search"></i>
+               </button>
+             </form>
+
+        </div>
+    </div>
+</nav>
+  <header>
+  <div
+  class="p-5 text-center bg-image img-responsive"
+  style="
+    background-image: url(images/header3.jpg);
+    width:100%;
+  "
+>
+  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h1 class="mb-3 display-1"><strong>BookWorm</strong></h1>
+        <h4 class="mb-3 d-none d-sm-block" style="font-family: Helvetica Neue; ">A place to let your inner bookworm out!<br> Go through our hundreds of personally customised book recommendations and shortlist the ones you'd like on your bedside table.
+          Head over to our reading corner to hang out with like-minded readers and discuss your latest fixation.
+        </h4>
+        <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+          >Reading Corner</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Background image -->
+</header>
+<div class="container">
+  <div class="col-12">
+        <div class="card card-body" style="background-color: #CBC3E3;">
+            <blockquote class="blockquote">
+                  <p class="mb-0">You don't spend your life hanging around books without learning a thing or two.</p><br>
+                  <footer class="blockquote-footer">Lemony Snicket,
+                  <cite title="Source Title">,
+                            Shouldn't You Be in School? (All the Wrong Questions, #3)</cite>
+                  </footer>
+            </blockquote>
+        </div>
+  </div>
+  <div class="row">
+     <div class="col-6 col-sm-3">
+       <div class="card bg-dark text-white">
+         <img src="images/hp_size.jpg" class="card-img-top" alt="Harry potter">
+         <div class="card-body">
+           <h5 class="card-title">Harry Potter</h5>
+           <p class="card-text d-none d-sm-block">Harry Potter is a series of seven fantasy novels written by British author J. K. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.</p>
+           <a href="#" class="btn btn-primary">Add to cart</a>
+         </div>
+       </div>
+     </div>
+    <div class="col-6 col-sm-3">
+      <div class="card bg-dark text-white">
+        <img src="images/tbt_size.jpeg" class="card-img-top" alt="book theif">
+        <div class="card-body">
+         <h5 class="card-title">The Book Thief</h5>
+         <p class="card-text d-none d-sm-block">The Book Thief tells the story of Liesel, a little girl who is taken to a new home because her mother can't afford to take care of her. It is set in Nazi Germany and is narrated by Death. </p>
+         <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+   </div>
+   <div class="col-6 col-sm-3">
+     <div class="card bg-dark text-white">
+       <img src="https://i.pinimg.com/originals/82/eb/cf/82ebcf8435a2d403014064eee495d8f2.jpg" class="card-img-top" alt="pride and prejudice">
+       <div class="card-body">
+        <h5 class="card-title">Pride and Prejudice</h5>
+        <p class="card-text d-none d-sm-block">Pride and Prejudice follows the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner. They must overcome the titular sins of pride and prejudice in order to fall in love and marry.</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+       </div>
+     </div>
+  </div>
+  <div class="col-6 col-sm-3">
+    <div class="card bg-dark text-white">
+      <img src="images/sh2.png" class="card-img-top" alt="stephen hawking">
+      <div class="card-body">
+        <h5 class="card-title">Brief Answers to the Big Questions</h5>
+        <p class="card-text d-none d-sm-block">'Brief Answers To The Big Questions' Is Stephen Hawking's Parting Gift To Humanity The physicist's posthumous book highlights his belief in the rationality of nature and in our ability to uncover its secrets — and a faith in science's ability to solve humanity's biggest problems</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+   </div>
+   <div class="row">
+     <div class="col-6 col-sm-3">
+       <div class="card bg-dark text-white">
+         <img src="images/wh2.jpg" class="card-img-top" alt="Wuthering Heights">
+         <div class="card-body">
+          <h5 class="card-title">Wuthering Heights</h5>
+          <p class="card-text d-none d-sm-block">The windswept moors are the unforgettable setting of this tale of the love between the foundling Heathcliff and his wealthy benefactor's daughter, Catherine. </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         </div>
+       </div>
+    </div>
+    <div class="col-6 col-sm-3">
+      <div class="card bg-dark text-white">
+        <img src="images/aandd2.jpg" class="card-img-top" alt="Aristotle and Dante">
+        <div class="card-body">
+         <h5 class="card-title">Aristotle and Dante discover the secrets of the universe</h5>
+         <p class="card-text d-none d-sm-block">A lyrical novel about family and friendship from critically acclaimed author Benjamin Alire Sáenz. Aristotle is an angry teen with a brother in prison. Dante is a know-it-all who has an unusual way of looking at the world.</p>
+         <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+   </div>
+   <div class="col-6 col-sm-3">
+     <div class="card bg-dark text-white">
+       <img src="images/wwl1.jpg" class="card-img-top" alt="we were liars">
+       <div class="card-body">
+        <h5 class="card-title">we were liars</h5>
+        <p class="card-text d-none d-sm-block">We Were Liars focuses on the theme of self-acceptance, family morals, and the possibly-deadly consequences of one's mistakes. It is centered on the wealthy, seemingly perfect Sinclair family, who spend every summer sitting gathered on their private island.</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+       </div>
+     </div>
+  </div>
+  <div class="col-6 col-sm-3">
+    <div class="card bg-dark text-white">
+      <img src="images/pj1.jpg" class="card-img-top" alt="percy jackson">
+      <div class="card-body">
+       <h5 class="card-title">Percy Jackson</h5>
+       <p class="card-text d-none d-sm-block">The book follows the entire story of Percy Jackson, a boy set in modern times who discovers he is a demi-God. Son of Poseidon and the center of a prophecy which may end the world. </p>
+       <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+ </div>
+    </div>
+</div>
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+ <!-- work in progress -->
+ <script>
+   const searchButton = document.getElementById('search-button');
+   const searchInput = document.getElementById('search-input');
+   searchButton.addEventListener('click', () => {
+   const inputValue = searchInput.value;
+   var divs = document.getElementsByClassName("col-sm-6");
+  for (var i = 0; i < divs.length; i++) {
+     var para = divs[i].getElementsByTagName("p");
+     var index = para[0].innerText.toLowerCase().indexOf(inputValue);
+     if (index != -1) {
+        targetId = divs[i].parentNode.id;
+        document.getElementById(targetId).scrollIntoView();
+        break;
+     }
+});
+ </script>
+</body>
